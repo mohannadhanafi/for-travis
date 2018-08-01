@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+}
+
+.main {
+    background: url('../img/bg.jpg');
+    height: 700px;
+    background-size: cover;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.main input[type = "text"]{
+    width: 400px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 4px 20px 4px 40px;
+    -webkit-transition:0.4s ease-in-out;
+    transition:0.4s ease-in-out;
+    font-weight: bold;
+}
+
+.main input[type = "text"]:focus {
+    width: 500px;
+    padding: 8px 20px 8px 40px;
+  }
+
+
+.main input[type=submit] {
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition:0.4s ease-in-out;
+    transition:0.4s ease-in-out;
+  }
+
+  .main input[type=submit]:hover {
+    padding: 7px 15px
+  }
+
+  .main .box1 {
+    margin: 50px auto;
+    border: 1px solid #FFF;
+    width: 79%;
+    padding: 50px 0;
+    background: rgba(256,256,256,0.6);
+  }
+
+  .main .box2 {
+    margin: 50px auto;
+    border: 1px solid #FFF;
+    width: 79%;
+    padding: 50px 0;
+    background: rgba(256,256,256,0.6);
+  }
+
+
+
+  @media(max-width: 600px) {
+    .main input[type = "text"] {
+        font-size: 10.5px;
+        width: 209px;
+        padding: 12px 20px 8px 10px;
+    }
+  }
+  
